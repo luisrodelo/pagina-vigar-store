@@ -1,0 +1,81 @@
+.navbar-brand img{
+    width: 150px;
+}
+
+.navbar-brand{
+    left: 50%;
+    transform: translateX(400%);
+    top: auto;  
+}
+.nav-link{
+    font-family: 'Oswald', sans-serif;
+    margin-right: 10px ;
+}
+.serch{
+    left: 50%;
+    transform: translateX(800%);
+    top: auto;   
+}
+
+.serchtwo{
+    left: 50%;
+    transform: translateX(1000%);
+    top: auto; 
+}
+
+.serchtree{
+    left: 50%;
+    transform: translateX(1200%);
+    top: auto; 
+}
+
+.text{
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-toggler{font-size: 30px;}
+
+.text-link{
+    font-family: 'Oswald', sans-serif;
+    padding: 120px 0;
+}
+
+.hombre-link{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+    color: #fff;
+    text-decoration: none;
+}
+
+section{
+    padding: 120px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.img-fluid{
+    padding: 25px 0;
+}
+
+.final{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
